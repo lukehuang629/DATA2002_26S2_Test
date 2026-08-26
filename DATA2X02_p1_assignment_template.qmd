@@ -24,3 +24,9 @@ number-sections: true # (Optional) Puts numbers next to heading/subheadings
 Is student type associated with target grade expectations?
 
 H A T P C 一会写在这个部分
+
+### Research Question 2
+
+Is there a difference in the average weekly paid work hours between A and B?
+
+
