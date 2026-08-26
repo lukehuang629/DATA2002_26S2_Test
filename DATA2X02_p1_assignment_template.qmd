@@ -13,14 +13,9 @@ table-of-contents: true # (Optional) Creates a table of contents
 number-sections: true # (Optional) Puts numbers next to heading/subheadings
 ---
 
-
-
 ## Introduction
 
 <See Assignment Briefing Page>
-
-
-
 
 ## Hypothesis tests
 
@@ -28,4 +23,4 @@ number-sections: true # (Optional) Puts numbers next to heading/subheadings
 
 Is student type associated with target grade expectations?
 
-
+H A T P C 一会写在这个部分
