@@ -1,0 +1,28 @@
+---
+title: "Your title here"
+date: "`r Sys.Date()`"
+author: "Your group's SIDs (don't put your name, so that we can respect the anonymous marking policy)"
+format: 
+  html: 
+    embed-resources: true # Creates a single HTML file as output
+    code-fold: true # Code folding; allows you to show/hide code chunks
+    code-tools: true # Includes a menu to download the code file 
+    # code-tools are particularly important if you use inline R to 
+    # improve the reproducibility of your report
+table-of-contents: true # (Optional) Creates a table of contents
+number-sections: true # (Optional) Puts numbers next to heading/subheadings
+---
+
+
+
+## Introduction
+
+<See Assignment Briefing Page>
+
+## Hypothesis tests
+
+
+<See Assignment Briefing page>
+
+
+
