@@ -19,10 +19,13 @@ number-sections: true # (Optional) Puts numbers next to heading/subheadings
 
 <See Assignment Briefing Page>
 
+
+
+
 ## Hypothesis tests
 
+### Research Question 1
 
-<See Assignment Briefing page>
-
+Is student type associated with target grade expectations?
 
 
