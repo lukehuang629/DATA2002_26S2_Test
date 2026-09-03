@@ -20,7 +20,25 @@ number-sections: true # (Optional) Puts numbers next to heading/subheadings
 ## Hypothesis tests
 
 ### Research Question 1
-在这里写上你们在本地写好的代码 
+```{r}
+#这个步骤在后期可以省略掉，主要是帮助自己去看有哪些categories
+table(mydata$gender)
+```
+
+```{r, warning=FALSE}
+mydata <- filter(mydata, gender == "Female"|gender== "Male")
+#此步高度查重，可以加载开头，也可以放在这里，如果自己要用到的数据那一列本来就没有NA可以不用加
+mydata = mydata %>% drop_na()
+```
+
+```{r}
+mydata <- mydata %>% dplyr::filter(mark_goal > 50)
+```
+
+```{r}
+summary(mydata$mark_goal[mydata$gender == "Female"])
+summary(mydata$mark_goal[mydata$gender == "Male"])
+```
 
 Is student type associated with target grade expectations?
 
